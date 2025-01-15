@@ -1,8 +1,7 @@
-#+title: WSMUX
-#+description: web socket based proxy
+* WSMUX
+websocket based http proxy
 
-
-#+header: usage
-#+begin_src bash
-    wsmux proxy -server <addr> -local-port <port> [-local-host <host>] -remote-port <port> [-remote-host <host>]
+*Usage
+#+begin_src sh
+wsmux proxy --server <server> --local-addr <local-address> --remote-addr <remote-address>
 #+end_src
