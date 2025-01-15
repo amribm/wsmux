@@ -1,7 +1,7 @@
 * WSMUX
 websocket based http proxy
 
-*Usage
+** Usage
 #+begin_src sh
 wsmux proxy --server <server> --local-addr <local-address> --remote-addr <remote-address>
 #+end_src
