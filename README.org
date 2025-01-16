@@ -3,5 +3,11 @@ websocket based http proxy
 
 ** Usage
 #+begin_src sh
-wsmux proxy --server <server> --local-addr <local-address> --remote-addr <remote-address>
+wsmux proxy --server <server> --local-addr <local-address> --local-port <port> --remote-addr <remote-address> --remote-port <port>
 #+end_src
+#+begin_src sh
+wsmux serve [addr [host]:<port>]
+#+end_src
+** TODOs
+- [ ] proxy
+- [ ] ws serve
